@@ -23,7 +23,7 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
 
-    - name: Build Debug APK with Gradle
+    - name: Build Debug APK
       run: gradle assembleDebug
 
     - name: Upload APK Artifact
